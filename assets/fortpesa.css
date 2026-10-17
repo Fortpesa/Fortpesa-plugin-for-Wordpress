@@ -1,0 +1,20 @@
+.fortpesa-wrap{max-width:420px;margin:1.5em 0;padding:20px;border:1px solid #e2e8f0;border-radius:12px;background:#fff;box-sizing:border-box}
+.fortpesa-wrap *{box-sizing:border-box}
+.fortpesa-title{margin:0 0 .6em}
+.fortpesa-form p{margin:0 0 14px}
+.fortpesa-form label{display:block;font-weight:600;margin-bottom:4px}
+.fortpesa-form input[type=text],.fortpesa-form input[type=email],.fortpesa-form input[type=tel],.fortpesa-form input[type=number]{width:100%;padding:10px 12px;border:1px solid #cbd5e1;border-radius:8px;font-size:16px}
+.fortpesa-form input:focus{outline:2px solid #047857;outline-offset:1px;border-color:#047857}
+.fortpesa-presets{display:flex;flex-wrap:wrap;gap:8px}
+.fortpesa-preset{padding:6px 14px;border:1px solid #047857;background:#fff;color:#047857;border-radius:999px;cursor:pointer}
+.fortpesa-preset:hover{background:#ecfdf5}
+.fortpesa-submit{width:100%;padding:12px 16px;border:0;border-radius:8px;background:#047857;color:#fff;font-size:16px;font-weight:600;cursor:pointer}
+.fortpesa-submit:hover{background:#065f46}
+.fortpesa-submit[disabled]{opacity:.6;cursor:not-allowed}
+.fortpesa-status{padding:10px 12px;border-radius:8px;font-size:14px;line-height:1.4}
+.fortpesa-status.is-info{background:#eff6ff;color:#1e40af}
+.fortpesa-status.is-success{background:#ecfdf5;color:#065f46}
+.fortpesa-status.is-error{background:#fef2f2;color:#991b1b}
+.fortpesa-status.is-warning{background:#fffbeb;color:#92400e}
+.fortpesa-hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+.fortpesa-notice{padding:10px 12px;background:#fffbeb;border:1px solid #fcd34d;border-radius:6px}
